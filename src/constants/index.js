@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  myimage,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +47,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend  Developer",
     icon: mobile,
   },
   {
@@ -54,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Developer",
     icon: creator,
   },
 ];
@@ -195,6 +196,9 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
+const Images = {
+    myimage: myimage
+  }
 
 const projects = [
   {
@@ -262,4 +266,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, Images };

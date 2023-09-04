@@ -20,8 +20,11 @@ import {
   tesla,
   shopify,
   carrent,
+  sassdashboard,
   jobit,
+  web3shirt,
   tripguide,
+  landingpage,
   threejs,
   myimage,
 } from "../assets";
@@ -55,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Full Developer",
+    title: "FullStack Developer",
     icon: creator,
   },
 ];
@@ -117,27 +120,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Intern",
+    company_name: "Tranter-IT & IOT Africa",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2022 - October 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web applications using Express.js, Postgresql, Graphql and other related technologies.",
+      "Collaborating with cross-functional teams including  product managers, and other developers to create high-quality products.",
+      "Working on internal company tools that increased the productity of the sales department by 10%",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
+    title: "Backend Developer",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using Express.js and other related technologies.",
+      "Collaborating with cross-functional teams including front-end developers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -173,15 +176,16 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our product, but Micheal proved me wrong.All i have to say is a quote from Micheal 'he his him'",
+    name: "Ye",
+    designation: "CEO",
+    company: "Yeezy",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
+
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like micheal does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -189,7 +193,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Micheal optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -202,9 +206,9 @@ const Images = {
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Sass-Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a dashboard thats targeted to any e-commerce or service based business to track daily sales and with the integrated analytics helps business make better business descions",
     tags: [
       {
         name: "react",
@@ -218,21 +222,50 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Google analytics",
+        color: "pink-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sassdashboard,
+    source_code_link: "https://sass-dashboard.onrender.com",
   },
   {
-    name: "Job IT",
+    name: "CNFTSHIRT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to connect there nft wallets to the web app allowing them to create custom designs with there nft collections, and also allows them to create new nfts using there custom shirts .",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: web3shirt,
+    source_code_link: "https://web3shirt.onrender.com",
+  },
+  {
+    name: "Landing-page",
+    description:
+      "This is a design startup for startups, this contains amazing animations that brings the site to life, the project is in progress and will continue to get updates later on",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -240,29 +273,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: landingpage,
+    source_code_link: "https://megarosss-landing-page.onrender.com",
   },
 ];
 

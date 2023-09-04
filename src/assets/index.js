@@ -29,6 +29,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import web3shirt from "./web3pic.png"
+import landingpage from "./landing-page.png"
+import sassdashboard from "./sass-dashboard.png"
+
 
 import myimage from "./myimage.jpg"
 
@@ -60,6 +64,9 @@ export {
   tesla,
   carrent,
   jobit,
+  landingpage,
+  sassdashboard,
+  web3shirt,
   tripguide,
   myimage,
 };

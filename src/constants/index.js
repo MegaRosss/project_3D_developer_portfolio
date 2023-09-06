@@ -17,14 +17,18 @@ import {
   docker,
   meta,
   starbucks,
+  tranter,
   tesla,
   shopify,
   carrent,
   sassdashboard,
   jobit,
-  web3shirt,
+  clubbers,
+  spacity,
+  harpenin,
   tripguide,
   landingpage,
+  web3shirt,
   threejs,
   myimage,
 } from "../assets";
@@ -122,8 +126,8 @@ const experiences = [
   {
     title: "Intern",
     company_name: "Tranter-IT & IOT Africa",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: tranter,
+    iconBg: "#FFFFFF",
     date: "May 2022 - October 2022",
     points: [
       "Developing and maintaining web applications using Express.js, Postgresql, Graphql and other related technologies.",
@@ -133,10 +137,10 @@ const experiences = [
     ],
   },
   {
-    title: "Backend Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    title: "Full-Stack Developer",
+    company_name: "Clubbers Store",
+    icon: clubbers,
+    iconBg: "#ffffff",
     date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using Express.js and other related technologies.",
@@ -147,9 +151,9 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
+    company_name: "SpaCity",
+    icon: spacity,
+    iconBg: "#bbedc9",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
@@ -160,9 +164,9 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    company_name: "Harpenin",
+    icon: harpenin,
+    iconBg: "#888a89",
     date: "Jan 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",

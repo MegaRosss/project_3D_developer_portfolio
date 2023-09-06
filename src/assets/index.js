@@ -24,7 +24,11 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import tranter from "./company/tranter-it-logo-100.png";
 import tesla from "./company/tesla.png";
+import spacity from "./company/spacity.jpg";
+import harpenin from "./company/harpenin.jpg";
+import clubbers from "./company/clubbersstore.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -68,5 +72,9 @@ export {
   sassdashboard,
   web3shirt,
   tripguide,
+  tranter,
   myimage,
+  harpenin,
+  clubbers,
+  spacity,
 };

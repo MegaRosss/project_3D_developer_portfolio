@@ -141,7 +141,7 @@ const experiences = [
     company_name: "Clubbers Store",
     icon: clubbers,
     iconBg: "#ffffff",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - june 2023",
     points: [
       "Developing and maintaining web applications using Express.js and other related technologies.",
       "Collaborating with cross-functional teams including front-end developers, product managers, and other developers to create high-quality products.",
@@ -154,7 +154,7 @@ const experiences = [
     company_name: "SpaCity",
     icon: spacity,
     iconBg: "#bbedc9",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2023 - Dec 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,7 +167,7 @@ const experiences = [
     company_name: "Harpenin",
     icon: harpenin,
     iconBg: "#888a89",
-    date: "Jan 2023 - Present",
+    date: "March 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -181,16 +181,16 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Micheal proved me wrong.All i have to say is a quote from Micheal 'he his him'",
-    name: "Ye",
+    name: "yuri",
     designation: "CEO",
-    company: "Yeezy",
+    company: "lilth",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
 
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like micheal does.",
-    name: "Chris Brown",
+    name: "Brown",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
